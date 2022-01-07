@@ -2790,6 +2790,13 @@ input, select, textarea {
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
+  /* profile photo  */
+  .csPhoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
 		.wrapper > .inner {
 			width: 60em;
