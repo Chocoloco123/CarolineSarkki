@@ -2018,6 +2018,9 @@ input, select, textarea {
 		}
 
 /* Icon */
+  .myLanguages-Icons {
+    color: #00ffcc;
+  }
 
 	.icon {
 		text-decoration: none;
