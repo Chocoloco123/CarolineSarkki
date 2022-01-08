@@ -1751,6 +1751,15 @@ input, select, textarea {
 						}
 
 		}
+/* Projects Div */
+.ProjectTitleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 18.4px;
+  background-color: #2e3842;
+  font-size: 22px;
+}
 
 /* Section/Article */
 
@@ -2822,10 +2831,11 @@ input, select, textarea {
 		.wrapper.alt {
 			padding: 0;
 		}
-
+    /* About Me */
 		.wrapper.style1 {
 			/* background-color: #21b2a6; */
-      background-color: #ed8c94;
+      background: linear-gradient(#2e3842, #ed8c94);
+      /* background-color: #ed8c94; */
 			color: #c8ece9;
 		}
 
