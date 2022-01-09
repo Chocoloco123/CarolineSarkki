@@ -140,7 +140,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1751,6 +1751,15 @@ input, select, textarea {
 						}
 
 		}
+/* Projects Div */
+.ProjectTitleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 18.4px;
+  background-color: #2e3842;
+  font-size: 22px;
+}
 
 /* Section/Article */
 
@@ -1811,6 +1820,42 @@ input, select, textarea {
 		}
 
 	}
+
+.resumeSection {
+  background: #2e3842;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.resume-Inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.hobbiesImg {
+  height: 250px;
+  width: 250px;  
+  border-radius: 50%;
+}
+
+.hobbySection {
+  display: flex;
+  justify-content: center;
+  
+  max-width: 600px;
+}
+
+.hobbySectionPTag {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
 
 /* Form */
 
@@ -2009,6 +2054,9 @@ input, select, textarea {
 		}
 
 /* Icon */
+  .myLanguages-Icons {
+    color: #00ffcc;
+  }
 
 	.icon {
 		text-decoration: none;
@@ -2790,6 +2838,13 @@ input, select, textarea {
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
+  /* profile photo  */
+  .csPhoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
 		.wrapper > .inner {
 			width: 60em;
@@ -2815,9 +2870,11 @@ input, select, textarea {
 		.wrapper.alt {
 			padding: 0;
 		}
-
+    /* About Me */
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			/* background-color: #21b2a6; */
+      background: linear-gradient(#2e3842, #ed8c94, #2e3842);
+      /* background-color: #ed8c94; */
 			color: #c8ece9;
 		}
 
@@ -2980,9 +3037,31 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			/* background-color: #505393; */
+      background: linear-gradient(#505393,#2e3842);
 			color: #d3d4e4;
 		}
+
+    .languagesNTechList {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #b9bad4;
+      border-radius: 3px;
+      padding-left: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      
+    }
+
+    .languagesNTechList li{
+      list-style: none;
+    }
+
+    .languagesNTechLi {
+      height:100px;
+      max-width: 250px;
+    }
 
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #ffffff;
@@ -3997,10 +4076,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/goldenGateBridge.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/goldenGateBridge.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/goldenGateBridge.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/goldenGateBridge.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
