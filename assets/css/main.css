@@ -1843,6 +1843,20 @@ input, select, textarea {
   border-radius: 50%;
 }
 
+.hobbySection {
+  display: flex;
+  justify-content: center;
+  
+  max-width: 600px;
+}
+
+.hobbySectionPTag {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
 /* Form */
 
 	form {
@@ -2859,7 +2873,7 @@ input, select, textarea {
     /* About Me */
 		.wrapper.style1 {
 			/* background-color: #21b2a6; */
-      background: linear-gradient(#2e3842, #ed8c94);
+      background: linear-gradient(#2e3842, #ed8c94, #2e3842);
       /* background-color: #ed8c94; */
 			color: #c8ece9;
 		}
